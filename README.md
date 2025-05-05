@@ -30,7 +30,7 @@ cd weather
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/agaonker/weather.git
 cd weather
 ```
 
@@ -43,6 +43,7 @@ go mod tidy
 ```
 OPENWEATHER_API_KEY=your_api_key_here
 ```
+Note: The `.env` file is not tracked by git for security reasons. You need to create it manually.
 
 ## Usage
 
